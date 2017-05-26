@@ -189,3 +189,11 @@ function outside(temp, humid, cloud) {
 }
 // #16 Create a function called callerBack that takes in a function (holla) and a string parameter(back) and invokes it(holla) with the argument string(back) + ' back'."
 // example - If I call you with 'Give it' you should invoke holla with 'Give it back'
+
+function callerBack(func, str) {
+  return func(str + ' back');
+}
+
+function holla(str){
+  return srt;
+}
